@@ -1,4 +1,3 @@
-// memoryMerge.js
 const fs = require("fs");
 const path = require("path");
 
@@ -11,13 +10,12 @@ function mergeLogs() {
     return;
   }
 
-  const logs = fs.readdirSync(logDir).filter(f => f.endsWith(".log"));
+  const logs = fs.readdirSync(logDir).filter(file => file.endsWith(".log"));
   const result = {};
 
-  logs.forEach(logFile => {
-    const filePath = path.join(logDir, logFile);
-    const content = fs.readFileSync(filePath, "utf-8");
-    result[logFile] = content;
+  logs.forEach(file => {
+    const content = fs.readFileSync(path.join(logDir, file), "utf-8");
+    result[file] = content;
   });
 
   if (!fs.existsSync(patchDir)) {
