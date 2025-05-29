@@ -1,0 +1,9 @@
+{
+  "ingest_20250421_003639.log": "[SUCCESS] File copied to GPT4All_inbox.\n",
+  "ingest_20250421_004111.log": "[SUCCESS] File copied to GPT4All_inbox.\n",
+  "ingest_20250421_004347.log": "[SUCCESS] Canon file copied to GPT4All_inbox.\n",
+  "ingest_20250421_200406.log": "[DRY RUN] Would copy Symbolic_State_Core.json to GPT4All_inbox.\n",
+  "ingest_20250421_200429.log": "[DRY RUN] Would copy Symbolic_State_Core.json to GPT4All_inbox.\n",
+  "ingest_20250421_200902.log": "[SUCCESS] File copied to GPT4All_inbox.\n",
+  "merge_manifest.log": "[INFO] Archiving legacy and unverified folders...\n[ARCHIVED] /Volumes/MY_everything/DataHoard_Mobile.zip -> /Volumes/MY_everything/Legacy_Drops_20250421_172424\n[ARCHIVED] /Volumes/MY_everything/DataHoard_FullPatch_0421_REBUILD -> /Volumes/MY_everything/Legacy_Drops_20250421_172424\n[ARCHIVED] /Volumes/MY_everything/Old Nexus System files -> /Volumes/MY_everything/Legacy_Drops_20250421_172424\n[OK] Canonical root preserved:\n     /Volumes/MY_everything/DataHoard_Mobile\n[OK] Backup structure preserved:\n     /Volumes/MY_everything/NexusSystem_Backups/\n[NOTE] All future sync, ingest, and system operations will reference:\n       /Volumes/MY_everything/DataHoard_Mobile\n=== MERGE COMPLETE ===\n"
+}
